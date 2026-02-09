@@ -1,0 +1,14 @@
+// IMPORTANT: Modify these roles based on your project requirements
+// Common roles: SUPER_ADMIN, ADMIN, USER, CUSTOMER, VENDOR, etc.
+
+enum Role {
+    SUPER_ADMIN
+    ADMIN
+    USER
+}
+
+enum UserStatus {
+    BLOCKED
+    DELETED
+    ACTIVE
+}
